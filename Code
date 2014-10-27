@@ -1,0 +1,74 @@
+/**
+ * Page 124 
+ * Question #4,6,8
+ */
+import java.util.Scanner;
+public class Loop {
+   public static void main(String[] args) {
+     int star = 4;
+     System.out.println("4.");
+    for(int x=1; x <= star; x++){ 
+         
+            System.out.print("*****"); 
+            System.out.println();
+    }
+    
+    
+    
+     System.out.println();
+     int lines = 7;
+     int cop = 1;
+     System.out.println("6.");
+     for(int Y=1; Y <= lines; Y++){ 
+        //System.out.println();
+              for(int num = 1; num <= Y; num++){ 
+               
+            System.out.print(cop);
+            
+             
+             
+         } 
+            
+               
+              cop++;
+              System.out.println();
+         } 
+     
+     
+     
+     
+     
+       System.out.println();
+     int nlines = 5;
+     int robber = 1;
+     System.out.println("8.");
+     for(int Y=1; Y <= nlines; Y++){ 
+        //System.out.println();
+       for(int num = 1; num <= 5-Y; num++){ 
+               
+         System.out.print(" ");
+            
+             
+             
+         }
+              for(int num = 1; num <= Y; num++){ 
+               
+            System.out.print(robber);
+            
+             
+             
+         } 
+            
+              
+              robber++;
+              System.out.println();
+         }
+    }
+    
+    
+    
+     
+     
+     
+      
+    }
